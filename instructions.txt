@@ -1,0 +1,17 @@
+1. Install Python 3.x on your system.
+2. Clone the repo from https://github.com/imbharatchawla/gale.git using git Clone.
+3. After cloning successfully, create a virtual environment if you want and activate it.
+4. Install all the  dependencies using requirements.txt file.
+5. After Installing requirements is done, configure the db settings in config.py.
+6. When done, run ga.py simply as python3 ga.py.
+7. App will start and you will see certain info in the terminal, with an endpoint with added /stats/ and debug info.
+8. Go to either POSTMAN/INSOMNIA, enter the url, set the method to POST.
+9. Provide the payload as JSON in the body: {
+    "season": 9
+}
+ or 
+
+ {
+    "year": 2017
+}
+10. It will accept the payload and return all the required data of that particular Season or Year.
